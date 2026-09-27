@@ -1,0 +1,76 @@
+{
+  "name": "lgb_contrasts7",
+  "strategy": "stratified",
+  "config": {
+    "family": "lgb",
+    "features": "contrasts",
+    "num_leaves": 7,
+    "learning_rate": 0.03,
+    "reg_lambda": 25.0,
+    "min_child_samples": 120,
+    "colsample_bytree": 0.9,
+    "subsample": 0.9
+  },
+  "auc_mean": 0.6534615519091587,
+  "auc_std": 0.012604654309822251,
+  "auc_oof": 0.6521253246479636,
+  "folds": [
+    {
+      "fold": 0,
+      "auc": 0.649355096961824,
+      "best_iteration": 277,
+      "n_features": 832,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    },
+    {
+      "fold": 1,
+      "auc": 0.6327948009707389,
+      "best_iteration": 523,
+      "n_features": 831,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    },
+    {
+      "fold": 2,
+      "auc": 0.6585223396348883,
+      "best_iteration": 100,
+      "n_features": 831,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    },
+    {
+      "fold": 3,
+      "auc": 0.6552397755502544,
+      "best_iteration": 116,
+      "n_features": 832,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    },
+    {
+      "fold": 4,
+      "auc": 0.671395746428088,
+      "best_iteration": 175,
+      "n_features": 832,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    }
+  ],
+  "seconds": 58.218204498291016,
+  "feature_version": "historical_v1"
+}

@@ -1,0 +1,16 @@
+{
+  "monthly_target_chi2": 32.31122374684344,
+  "monthly_target_pvalue": 0.09384209872814407,
+  "monthly_target_dof": 23,
+  "train_test_date_ks": 0.005976190476190468,
+  "train_test_date_ks_pvalue": 0.9980832557054076,
+  "adversarial_source_auc": 0.497799988095238,
+  "adversarial_fold_auc": [
+    0.5000182665523891,
+    0.4958555817441612,
+    0.497445617231033
+  ],
+  "duplicate_full_feature_rows_train": 0,
+  "duplicate_full_feature_rows_across_splits": 0,
+  "interpretation": "Test dates are interspersed with training dates. Use 5-fold stratification for primary model selection, and expanding temporal splits as a robustness check. No customer identifier exists, so repeated-customer dependence cannot be ruled out."
+}

@@ -1,0 +1,71 @@
+{
+  "name": "spline_compact",
+  "strategy": "stratified",
+  "config": {
+    "family": "spline",
+    "features": "compact",
+    "C": 0.05
+  },
+  "auc_mean": 0.5999700566324112,
+  "auc_std": 0.006034054194935799,
+  "auc_oof": 0.5999672953877353,
+  "folds": [
+    {
+      "fold": 0,
+      "auc": 0.5975763802413221,
+      "best_iteration": 0,
+      "n_features": 210,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    },
+    {
+      "fold": 1,
+      "auc": 0.5916621168885077,
+      "best_iteration": 0,
+      "n_features": 210,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    },
+    {
+      "fold": 2,
+      "auc": 0.5999539194882015,
+      "best_iteration": 0,
+      "n_features": 210,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    },
+    {
+      "fold": 3,
+      "auc": 0.6003358319011618,
+      "best_iteration": 0,
+      "n_features": 210,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    },
+    {
+      "fold": 4,
+      "auc": 0.6103220346428626,
+      "best_iteration": 0,
+      "n_features": 210,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    }
+  ],
+  "seconds": 45.26632642745972,
+  "feature_version": "historical_v1"
+}

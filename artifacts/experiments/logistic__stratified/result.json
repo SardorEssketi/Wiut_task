@@ -1,0 +1,71 @@
+{
+  "name": "logistic",
+  "strategy": "stratified",
+  "config": {
+    "family": "logistic",
+    "features": "sequence",
+    "C": 0.1
+  },
+  "auc_mean": 0.6054170600095568,
+  "auc_std": 0.006734382563652712,
+  "auc_oof": 0.605511695395266,
+  "folds": [
+    {
+      "fold": 0,
+      "auc": 0.6022498765060214,
+      "best_iteration": 0,
+      "n_features": 817,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    },
+    {
+      "fold": 1,
+      "auc": 0.6043674284295242,
+      "best_iteration": 0,
+      "n_features": 816,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    },
+    {
+      "fold": 2,
+      "auc": 0.602811987029322,
+      "best_iteration": 0,
+      "n_features": 816,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    },
+    {
+      "fold": 3,
+      "auc": 0.5991954737103509,
+      "best_iteration": 0,
+      "n_features": 817,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    },
+    {
+      "fold": 4,
+      "auc": 0.6184605343725654,
+      "best_iteration": 0,
+      "n_features": 817,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    }
+  ],
+  "seconds": 34.46981501579285,
+  "feature_version": "historical_v1"
+}

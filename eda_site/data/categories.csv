@@ -1,0 +1,31 @@
+split,target_group,field,category,count,fraction
+train,All,kirim_chiqim,kirim,5286266,0.7566051122233954
+train,All,kirim_chiqim,chiqim,1700557,0.24339488777660462
+train,All,tranzaksiya_turi,karta,3758318,0.5379151582915439
+train,All,tranzaksiya_turi,bank_otkazmasi,2754388,0.3942261024789092
+train,All,tranzaksiya_turi,naqd,442295,0.06330416556995934
+train,All,tranzaksiya_turi,xalqaro,31822,0.004554573659587484
+train,Dismissed,kirim_chiqim,kirim,4338056,0.7574106736607815
+train,Dismissed,kirim_chiqim,chiqim,1389426,0.24258932633921854
+train,Dismissed,tranzaksiya_turi,karta,3082058,0.5381174484703749
+train,Dismissed,tranzaksiya_turi,bank_otkazmasi,2259090,0.39442987337192853
+train,Dismissed,tranzaksiya_turi,naqd,360423,0.06292870060525725
+train,Dismissed,tranzaksiya_turi,xalqaro,25911,0.004523977552439274
+train,Escalated,kirim_chiqim,kirim,948210,0.7529414193613961
+train,Escalated,kirim_chiqim,chiqim,311131,0.24705858063860384
+train,Escalated,tranzaksiya_turi,karta,676260,0.536995142697649
+train,Escalated,tranzaksiya_turi,bank_otkazmasi,495298,0.3932993525979064
+train,Escalated,tranzaksiya_turi,naqd,81872,0.06501177997063544
+train,Escalated,tranzaksiya_turi,xalqaro,5911,0.00469372473380919
+test,All,kirim_chiqim,kirim,2286779,0.7553297678234756
+test,All,kirim_chiqim,chiqim,740745,0.24467023217652445
+test,All,tranzaksiya_turi,karta,1624949,0.5367253901207719
+test,All,tranzaksiya_turi,bank_otkazmasi,1197343,0.3954858821928414
+test,All,tranzaksiya_turi,naqd,191518,0.06325895352109513
+test,All,tranzaksiya_turi,xalqaro,13714,0.004529774165291506
+test,Unlabeled test,kirim_chiqim,kirim,2286779,0.7553297678234756
+test,Unlabeled test,kirim_chiqim,chiqim,740745,0.24467023217652445
+test,Unlabeled test,tranzaksiya_turi,karta,1624949,0.5367253901207719
+test,Unlabeled test,tranzaksiya_turi,bank_otkazmasi,1197343,0.3954858821928414
+test,Unlabeled test,tranzaksiya_turi,naqd,191518,0.06325895352109513
+test,Unlabeled test,tranzaksiya_turi,xalqaro,13714,0.004529774165291506

@@ -1,0 +1,74 @@
+{
+  "name": "cat_compact3",
+  "strategy": "stratified",
+  "config": {
+    "family": "cat",
+    "features": "compact",
+    "depth": 3,
+    "learning_rate": 0.04,
+    "l2_leaf_reg": 15.0,
+    "random_strength": 0.5
+  },
+  "auc_mean": 0.6502038210964473,
+  "auc_std": 0.013345581622205801,
+  "auc_oof": 0.6500939809348607,
+  "folds": [
+    {
+      "fold": 0,
+      "auc": 0.645506388067837,
+      "best_iteration": 349,
+      "n_features": 210,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    },
+    {
+      "fold": 1,
+      "auc": 0.6282069212211515,
+      "best_iteration": 163,
+      "n_features": 210,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    },
+    {
+      "fold": 2,
+      "auc": 0.6516210209612538,
+      "best_iteration": 85,
+      "n_features": 210,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    },
+    {
+      "fold": 3,
+      "auc": 0.6572246442880336,
+      "best_iteration": 226,
+      "n_features": 210,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    },
+    {
+      "fold": 4,
+      "auc": 0.6684601309439602,
+      "best_iteration": 146,
+      "n_features": 210,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    }
+  ],
+  "seconds": 29.44846248626709,
+  "feature_version": "historical_v1"
+}

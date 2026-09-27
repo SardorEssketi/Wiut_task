@@ -1,0 +1,76 @@
+{
+  "name": "lgb_sequence",
+  "strategy": "stratified",
+  "config": {
+    "family": "lgb",
+    "features": "sequence",
+    "num_leaves": 15,
+    "learning_rate": 0.035,
+    "reg_lambda": 10.0,
+    "min_child_samples": 60,
+    "colsample_bytree": 0.85,
+    "subsample": 0.85
+  },
+  "auc_mean": 0.6334023644502299,
+  "auc_std": 0.012284761266736048,
+  "auc_oof": 0.6310479192497305,
+  "folds": [
+    {
+      "fold": 0,
+      "auc": 0.6262933248702977,
+      "best_iteration": 158,
+      "n_features": 817,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    },
+    {
+      "fold": 1,
+      "auc": 0.6216426895598953,
+      "best_iteration": 15,
+      "n_features": 816,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    },
+    {
+      "fold": 2,
+      "auc": 0.6274668538575394,
+      "best_iteration": 28,
+      "n_features": 816,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    },
+    {
+      "fold": 3,
+      "auc": 0.6352476468905964,
+      "best_iteration": 118,
+      "n_features": 817,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    },
+    {
+      "fold": 4,
+      "auc": 0.6563613070728207,
+      "best_iteration": 73,
+      "n_features": 817,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    }
+  ],
+  "seconds": 32.676743030548096,
+  "feature_version": "historical_v1"
+}

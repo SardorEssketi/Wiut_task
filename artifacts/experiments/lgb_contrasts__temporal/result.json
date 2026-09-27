@@ -1,0 +1,54 @@
+{
+  "name": "lgb_contrasts",
+  "strategy": "temporal",
+  "config": {
+    "family": "lgb",
+    "features": "contrasts",
+    "num_leaves": 15,
+    "learning_rate": 0.035,
+    "reg_lambda": 15.0,
+    "min_child_samples": 80,
+    "colsample_bytree": 0.85,
+    "subsample": 0.85
+  },
+  "auc_mean": 0.659913209910752,
+  "auc_std": 0.03206647820758802,
+  "auc_oof": 0.6570649830417881,
+  "folds": [
+    {
+      "fold": 0,
+      "auc": 0.624715548365383,
+      "best_iteration": 51,
+      "n_features": 831,
+      "n_train": 7588,
+      "n_valid": 2638,
+      "train_date_max": "2025-12-31 00:00:00",
+      "valid_date_min": "2026-01-01 00:00:00",
+      "valid_date_max": "2026-04-19 00:00:00"
+    },
+    {
+      "fold": 1,
+      "auc": 0.6527485190586794,
+      "best_iteration": 77,
+      "n_features": 831,
+      "n_train": 10226,
+      "n_valid": 2013,
+      "train_date_max": "2026-04-19 00:00:00",
+      "valid_date_min": "2026-04-20 00:00:00",
+      "valid_date_max": "2026-08-07 00:00:00"
+    },
+    {
+      "fold": 2,
+      "auc": 0.7022755623081937,
+      "best_iteration": 141,
+      "n_features": 831,
+      "n_train": 12239,
+      "n_valid": 1761,
+      "train_date_max": "2026-08-07 00:00:00",
+      "valid_date_min": "2026-08-08 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    }
+  ],
+  "seconds": 21.395963430404663,
+  "feature_version": "historical_v1"
+}

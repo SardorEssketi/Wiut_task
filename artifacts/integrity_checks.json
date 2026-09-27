@@ -1,0 +1,9 @@
+{
+  "future_transaction_invariance": true,
+  "enhanced_future_transaction_invariance": true,
+  "features_checked": 1065,
+  "exact_cutoff_inclusion": true,
+  "signal_row_order_preserved": true,
+  "no_identifier_or_target_predictors": true,
+  "source_files_unchanged": true
+}

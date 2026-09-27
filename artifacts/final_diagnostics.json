@@ -1,0 +1,11 @@
+{
+  "heldout_fold": 0,
+  "heldout_ensemble_auc": 0.6396024345571565,
+  "permutation_repeats": 3,
+  "blend_minus_lgb_oof_auc": 0.0012166689527620678,
+  "paired_bootstrap_delta_interval_95": [
+    -0.0018041367569180677,
+    0.00404503159742478
+  ],
+  "caveat": "Diagnostic only. Correlation can suppress marginal importance. Conditional bootstrap does not include model-selection uncertainty."
+}

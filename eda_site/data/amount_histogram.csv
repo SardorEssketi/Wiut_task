@@ -1,0 +1,61 @@
+split,target_group,bin,order,count,fraction
+train,All,-inf to -10,0,0,0.0
+train,All,-10 to -5,1,0,0.0
+train,All,-5 to -3,2,0,0.0
+train,All,-3 to -2,3,106455,0.015236538838897164
+train,All,-2 to -1,4,1107167,0.15846501335442448
+train,All,-1 to 0,5,3000537,0.4294565641637122
+train,All,0 to 1,6,1905380,0.2727105008957576
+train,All,1 to 2,7,666771,0.0954326451378545
+train,All,2 to 3,8,162866,0.023310451688843412
+train,All,3 to 5,9,36758,0.005261046401204095
+train,All,5 to 10,10,889,0.0001272395193065575
+train,All,10 to inf,11,0,0.0
+train,Dismissed,-inf to -10,0,0,0.0
+train,Dismissed,-10 to -5,1,0,0.0
+train,Dismissed,-5 to -3,2,0,0.0
+train,Dismissed,-3 to -2,3,85854,0.014989833228633455
+train,Dismissed,-2 to -1,4,893573,0.15601498180177606
+train,Dismissed,-1 to 0,5,2452565,0.42820998826360346
+train,Dismissed,0 to 1,6,1570072,0.2741295389492276
+train,Dismissed,1 to 2,7,555239,0.09694294979888195
+train,Dismissed,2 to 3,8,137756,0.02405175607710334
+train,Dismissed,3 to 5,9,31637,0.0055237187999892445
+train,Dismissed,5 to 10,10,786,0.00013723308078488942
+train,Dismissed,10 to inf,11,0,0.0
+train,Escalated,-inf to -10,0,0,0.0
+train,Escalated,-10 to -5,1,0,0.0
+train,Escalated,-5 to -3,2,0,0.0
+train,Escalated,-3 to -2,3,20601,0.016358555784334823
+train,Escalated,-2 to -1,4,213594,0.16960775516718665
+train,Escalated,-1 to 0,5,547972,0.435125990498205
+train,Escalated,0 to 1,6,335308,0.2662567168066473
+train,Escalated,1 to 2,7,111532,0.0885637805804782
+train,Escalated,2 to 3,8,25110,0.019938999841980845
+train,Escalated,3 to 5,9,5121,0.004066412512576022
+train,Escalated,5 to 10,10,103,8.178880859115998e-05
+train,Escalated,10 to inf,11,0,0.0
+test,All,-inf to -10,0,0,0.0
+test,All,-10 to -5,1,0,0.0
+test,All,-5 to -3,2,0,0.0
+test,All,-3 to -2,3,46428,0.015335303700317488
+test,All,-2 to -1,4,472333,0.1560129663711997
+test,All,-1 to 0,5,1292735,0.42699413778387885
+test,All,0 to 1,6,831055,0.274499888357615
+test,All,1 to 2,7,294882,0.09740038394410747
+test,All,2 to 3,8,72945,0.02409394607606744
+test,All,3 to 5,9,16752,0.005533234418620628
+test,All,5 to 10,10,394,0.00013013934819344124
+test,All,10 to inf,11,0,0.0
+test,Unlabeled test,-inf to -10,0,0,0.0
+test,Unlabeled test,-10 to -5,1,0,0.0
+test,Unlabeled test,-5 to -3,2,0,0.0
+test,Unlabeled test,-3 to -2,3,46428,0.015335303700317488
+test,Unlabeled test,-2 to -1,4,472333,0.1560129663711997
+test,Unlabeled test,-1 to 0,5,1292735,0.42699413778387885
+test,Unlabeled test,0 to 1,6,831055,0.274499888357615
+test,Unlabeled test,1 to 2,7,294882,0.09740038394410747
+test,Unlabeled test,2 to 3,8,72945,0.02409394607606744
+test,Unlabeled test,3 to 5,9,16752,0.005533234418620628
+test,Unlabeled test,5 to 10,10,394,0.00013013934819344124
+test,Unlabeled test,10 to inf,11,0,0.0

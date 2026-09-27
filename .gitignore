@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+*.log
+artifacts/models/
+artifacts/*features.parquet
+artifacts/*enhanced.parquet
+# Raw files stay local; the EDA app only needs aggregate data.
+fintech_data/

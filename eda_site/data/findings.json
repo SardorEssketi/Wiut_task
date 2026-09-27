@@ -1,0 +1,10 @@
+{
+  "findings": [
+    "The escalation rate is 17.18%; every alert has at least one valid historical transaction.",
+    "Activity-only LightGBM scored 0.6056 mean AUC. Adding transaction-type information reached 0.6361; within-alert amount/type contrasts reached 0.6540.",
+    "Escalated alerts have a median of 493 historical transactions versus 455 for dismissed alerts, but activity concentration is very similar: median last-7-day shares are about 8.90% and 8.94%, respectively. Recent bursts alone are not a strong discriminator here.",
+    "Escalated alerts have a lower median full-history amount-index mean (-0.144 versus -0.069) and standard deviation (0.824 versus 0.857). Type-specific distribution shape and contrasts add information beyond these weak marginal differences.",
+    "The train/test source classifier scored 0.4978 AUC, with no detectable separation under that diagnostic. Both splits span the same alert dates.",
+    "The final model is 50% LightGBM with type contrasts + 50% compact CatBoost. Reported scores are local estimates, not a hidden-test result."
+  ]
+}

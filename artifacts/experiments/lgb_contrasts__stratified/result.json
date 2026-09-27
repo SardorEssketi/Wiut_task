@@ -1,0 +1,76 @@
+{
+  "name": "lgb_contrasts",
+  "strategy": "stratified",
+  "config": {
+    "family": "lgb",
+    "features": "contrasts",
+    "num_leaves": 15,
+    "learning_rate": 0.035,
+    "reg_lambda": 15.0,
+    "min_child_samples": 80,
+    "colsample_bytree": 0.85,
+    "subsample": 0.85
+  },
+  "auc_mean": 0.6540216004640326,
+  "auc_std": 0.014617648570308214,
+  "auc_oof": 0.6524071329763439,
+  "folds": [
+    {
+      "fold": 0,
+      "auc": 0.6449527943706468,
+      "best_iteration": 167,
+      "n_features": 832,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    },
+    {
+      "fold": 1,
+      "auc": 0.6344623058723964,
+      "best_iteration": 205,
+      "n_features": 831,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    },
+    {
+      "fold": 2,
+      "auc": 0.6586491955185357,
+      "best_iteration": 76,
+      "n_features": 831,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    },
+    {
+      "fold": 3,
+      "auc": 0.6538945652787826,
+      "best_iteration": 54,
+      "n_features": 832,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    },
+    {
+      "fold": 4,
+      "auc": 0.6781491412798011,
+      "best_iteration": 74,
+      "n_features": 832,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    }
+  ],
+  "seconds": 36.162535667419434,
+  "feature_version": "historical_v1"
+}

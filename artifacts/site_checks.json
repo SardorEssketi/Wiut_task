@@ -1,0 +1,12 @@
+{
+  "pages_passed": [
+    "Overview",
+    "Target & time",
+    "Transaction behavior",
+    "Outcome differences",
+    "Validation & models",
+    "Conclusions"
+  ],
+  "framework": "streamlit.testing.v1.AppTest",
+  "app_sha256": "e11d4358fd83a28029a31d03dbf7255dee981a6fb8e1c785570397b8c89ee88d"
+}

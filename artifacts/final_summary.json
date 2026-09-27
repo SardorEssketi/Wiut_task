@@ -1,0 +1,57 @@
+{
+  "auc_mean": 0.6513300144606743,
+  "auc_std": 0.014789722406017922,
+  "auc_oof": 0.650206187877598,
+  "fold_auc": [
+    0.6396024345571565,
+    0.6315208630861929,
+    0.6570202404613789,
+    0.6543199583303076,
+    0.6741865758683353
+  ],
+  "validation_strategy": "nested",
+  "exploratory": {
+    "auc_mean": 0.6549751263852169,
+    "auc_std": 0.014084795982188541,
+    "auc_oof": 0.6541035771566173,
+    "fold_auc": [
+      0.6452661239207165,
+      0.6357963097937225,
+      0.6583685885108912,
+      0.657890749740685,
+      0.6775538599600696
+    ]
+  },
+  "description": "50% LightGBM with type contrasts + 50% compact CatBoost",
+  "selection_note": "A coarse OOF weight comparison selected a 50/50 blend on exploratory folds (mean AUC 0.654975, pooled AUC 0.654104). The weights were then fixed for the inner-stopping audit (mean AUC 0.651330, pooled AUC 0.650206). The blend gain is small and is not claimed to be statistically decisive. Model and feature search itself was exploratory, not fully nested. Final components are refitted on all training alerts using median inner-selected boosting rounds.",
+  "components": [
+    {
+      "name": "lgb_contrasts",
+      "weight": 0.5,
+      "iterations": 70,
+      "n_features": 832
+    },
+    {
+      "name": "cat_compact",
+      "weight": 0.5,
+      "iterations": 73,
+      "n_features": 210
+    }
+  ],
+  "oof_auc_bootstrap_interval_95": [
+    0.6374122690707426,
+    0.6629795318255862
+  ],
+  "bootstrap_caveat": "Conditional on selected models and reused OOF predictions; excludes model-selection uncertainty.",
+  "submission_filename": "team_SUBMIT_READY.csv",
+  "temporal": {
+    "auc_mean": 0.6626498363174106,
+    "auc_std": 0.02820130249090964,
+    "auc_oof": 0.66226349642408,
+    "fold_auc": [
+      0.6314147429130906,
+      0.6567907236356434,
+      0.699744042403498
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "name": "logistic_compact",
+  "strategy": "stratified",
+  "config": {
+    "family": "logistic",
+    "features": "compact",
+    "C": 0.1
+  },
+  "auc_mean": 0.6352515915258478,
+  "auc_std": 0.009089945651573011,
+  "auc_oof": 0.6351756035067808,
+  "folds": [
+    {
+      "fold": 0,
+      "auc": 0.6355497700905204,
+      "best_iteration": 0,
+      "n_features": 210,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    },
+    {
+      "fold": 1,
+      "auc": 0.628052273589143,
+      "best_iteration": 0,
+      "n_features": 210,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    },
+    {
+      "fold": 2,
+      "auc": 0.6312447386186066,
+      "best_iteration": 0,
+      "n_features": 210,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    },
+    {
+      "fold": 3,
+      "auc": 0.62875423936226,
+      "best_iteration": 0,
+      "n_features": 210,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    },
+    {
+      "fold": 4,
+      "auc": 0.6526569359687084,
+      "best_iteration": 0,
+      "n_features": 210,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    }
+  ],
+  "seconds": 5.203413486480713,
+  "feature_version": "historical_v1"
+}

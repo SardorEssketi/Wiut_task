@@ -1,0 +1,54 @@
+{
+  "name": "xgb_compact",
+  "strategy": "temporal",
+  "config": {
+    "family": "xgb",
+    "features": "compact",
+    "max_depth": 2,
+    "learning_rate": 0.035,
+    "min_child_weight": 30,
+    "reg_lambda": 30.0,
+    "colsample_bytree": 0.9,
+    "subsample": 0.9
+  },
+  "auc_mean": 0.6573078638803068,
+  "auc_std": 0.024146483724650877,
+  "auc_oof": 0.6539430092112182,
+  "folds": [
+    {
+      "fold": 0,
+      "auc": 0.6293432657151162,
+      "best_iteration": 87,
+      "n_features": 210,
+      "n_train": 7588,
+      "n_valid": 2638,
+      "train_date_max": "2025-12-31 00:00:00",
+      "valid_date_min": "2026-01-01 00:00:00",
+      "valid_date_max": "2026-04-19 00:00:00"
+    },
+    {
+      "fold": 1,
+      "auc": 0.6543176866706278,
+      "best_iteration": 331,
+      "n_features": 210,
+      "n_train": 10226,
+      "n_valid": 2013,
+      "train_date_max": "2026-04-19 00:00:00",
+      "valid_date_min": "2026-04-20 00:00:00",
+      "valid_date_max": "2026-08-07 00:00:00"
+    },
+    {
+      "fold": 2,
+      "auc": 0.6882626392551763,
+      "best_iteration": 103,
+      "n_features": 210,
+      "n_train": 12239,
+      "n_valid": 1761,
+      "train_date_max": "2026-08-07 00:00:00",
+      "valid_date_min": "2026-08-08 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    }
+  ],
+  "seconds": 48.75826334953308,
+  "feature_version": "historical_v1"
+}

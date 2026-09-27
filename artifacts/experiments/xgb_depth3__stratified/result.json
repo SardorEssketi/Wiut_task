@@ -1,0 +1,76 @@
+{
+  "name": "xgb_depth3",
+  "strategy": "stratified",
+  "config": {
+    "family": "xgb",
+    "features": "sequence",
+    "max_depth": 3,
+    "learning_rate": 0.035,
+    "min_child_weight": 15,
+    "reg_lambda": 20.0,
+    "colsample_bytree": 0.85,
+    "subsample": 0.85
+  },
+  "auc_mean": 0.6342160351215979,
+  "auc_std": 0.01507769868929723,
+  "auc_oof": 0.6333490939441782,
+  "folds": [
+    {
+      "fold": 0,
+      "auc": 0.6224105486718682,
+      "best_iteration": 507,
+      "n_features": 817,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    },
+    {
+      "fold": 1,
+      "auc": 0.6187590715404429,
+      "best_iteration": 231,
+      "n_features": 816,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    },
+    {
+      "fold": 2,
+      "auc": 0.6313169075135441,
+      "best_iteration": 79,
+      "n_features": 816,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    },
+    {
+      "fold": 3,
+      "auc": 0.6371491403832931,
+      "best_iteration": 345,
+      "n_features": 817,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    },
+    {
+      "fold": 4,
+      "auc": 0.6614445074988413,
+      "best_iteration": 172,
+      "n_features": 817,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    }
+  ],
+  "seconds": 146.92497754096985,
+  "feature_version": "historical_v1"
+}

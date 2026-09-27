@@ -1,0 +1,76 @@
+{
+  "name": "lgb_baseline",
+  "strategy": "stratified",
+  "config": {
+    "family": "lgb",
+    "features": "baseline",
+    "num_leaves": 15,
+    "learning_rate": 0.035,
+    "reg_lambda": 10.0,
+    "min_child_samples": 60,
+    "colsample_bytree": 0.85,
+    "subsample": 0.85
+  },
+  "auc_mean": 0.6055890998969912,
+  "auc_std": 0.015325776408997203,
+  "auc_oof": 0.5987605776739024,
+  "folds": [
+    {
+      "fold": 0,
+      "auc": 0.5966865960397656,
+      "best_iteration": 47,
+      "n_features": 34,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    },
+    {
+      "fold": 1,
+      "auc": 0.5848849645744859,
+      "best_iteration": 7,
+      "n_features": 34,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    },
+    {
+      "fold": 2,
+      "auc": 0.6135458774527339,
+      "best_iteration": 3,
+      "n_features": 34,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    },
+    {
+      "fold": 3,
+      "auc": 0.6028343997296133,
+      "best_iteration": 73,
+      "n_features": 34,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    },
+    {
+      "fold": 4,
+      "auc": 0.6299936616883577,
+      "best_iteration": 58,
+      "n_features": 34,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    }
+  ],
+  "seconds": 4.687076091766357,
+  "feature_version": "historical_v1"
+}

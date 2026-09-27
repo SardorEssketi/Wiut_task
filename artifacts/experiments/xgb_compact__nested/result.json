@@ -1,0 +1,76 @@
+{
+  "name": "xgb_compact",
+  "strategy": "nested",
+  "config": {
+    "family": "xgb",
+    "features": "compact",
+    "max_depth": 2,
+    "learning_rate": 0.035,
+    "min_child_weight": 30,
+    "reg_lambda": 30.0,
+    "colsample_bytree": 0.9,
+    "subsample": 0.9
+  },
+  "auc_mean": 0.6455409932770865,
+  "auc_std": 0.017535491434176063,
+  "auc_oof": 0.6458921733954076,
+  "folds": [
+    {
+      "fold": 0,
+      "auc": 0.6424291243178696,
+      "best_iteration": 301,
+      "n_features": 210,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    },
+    {
+      "fold": 1,
+      "auc": 0.6178742181329504,
+      "best_iteration": 32,
+      "n_features": 210,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    },
+    {
+      "fold": 2,
+      "auc": 0.6543782313510645,
+      "best_iteration": 120,
+      "n_features": 210,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    },
+    {
+      "fold": 3,
+      "auc": 0.6416200258373609,
+      "best_iteration": 27,
+      "n_features": 210,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    },
+    {
+      "fold": 4,
+      "auc": 0.671403366746187,
+      "best_iteration": 135,
+      "n_features": 210,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    }
+  ],
+  "seconds": 38.23189067840576,
+  "feature_version": "historical_v1"
+}

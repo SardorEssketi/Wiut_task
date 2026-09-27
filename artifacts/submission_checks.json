@@ -1,0 +1,21 @@
+{
+  "rows": 6000,
+  "columns": [
+    "signal_id",
+    "ehtimollik"
+  ],
+  "unique_ids": 6000,
+  "matches_sample_order": true,
+  "finite": true,
+  "range_valid": true,
+  "prediction_summary": {
+    "count": 6000.0,
+    "mean": 0.17734688285425249,
+    "std": 0.06267838371089604,
+    "min": 0.08978679360357664,
+    "25%": 0.12593255875204548,
+    "50%": 0.15538664424358334,
+    "75%": 0.2227747151882512,
+    "max": 0.3724464560290902
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "50% LightGBM with type contrasts + 50% compact CatBoost",
+  "validation_strategy": "nested",
+  "selection_note": "A coarse OOF weight comparison selected a 50/50 blend on exploratory folds (mean AUC 0.654975, pooled AUC 0.654104). The weights were then fixed for the inner-stopping audit (mean AUC 0.651330, pooled AUC 0.650206). The blend gain is small and is not claimed to be statistically decisive. Model and feature search itself was exploratory, not fully nested. Final components are refitted on all training alerts using median inner-selected boosting rounds.",
+  "weights": {
+    "lgb_contrasts": 0.5,
+    "cat_compact": 0.5
+  },
+  "configs": {
+    "lgb_contrasts": {
+      "family": "lgb",
+      "features": "contrasts",
+      "num_leaves": 15,
+      "learning_rate": 0.035,
+      "reg_lambda": 15.0,
+      "min_child_samples": 80,
+      "colsample_bytree": 0.85,
+      "subsample": 0.85
+    },
+    "cat_compact": {
+      "family": "cat",
+      "features": "compact",
+      "depth": 4,
+      "learning_rate": 0.04,
+      "l2_leaf_reg": 15.0,
+      "random_strength": 0.5
+    }
+  }
+}

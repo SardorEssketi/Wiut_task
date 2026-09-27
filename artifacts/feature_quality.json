@@ -1,0 +1,9 @@
+{
+  "constant_features": [
+    "has_history"
+  ],
+  "near_constant_features": [
+    "has_history"
+  ],
+  "high_correlation_pairs": 336
+}

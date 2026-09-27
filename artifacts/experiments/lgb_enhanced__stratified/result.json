@@ -1,0 +1,76 @@
+{
+  "name": "lgb_enhanced",
+  "strategy": "stratified",
+  "config": {
+    "family": "lgb",
+    "features": "enhanced",
+    "num_leaves": 15,
+    "learning_rate": 0.035,
+    "reg_lambda": 15.0,
+    "min_child_samples": 80,
+    "colsample_bytree": 0.85,
+    "subsample": 0.85
+  },
+  "auc_mean": 0.6527228293075641,
+  "auc_std": 0.014800403554798051,
+  "auc_oof": 0.6507211062191658,
+  "folds": [
+    {
+      "fold": 0,
+      "auc": 0.6466467462586479,
+      "best_iteration": 255,
+      "n_features": 1042,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    },
+    {
+      "fold": 1,
+      "auc": 0.6309614420869272,
+      "best_iteration": 111,
+      "n_features": 1041,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    },
+    {
+      "fold": 2,
+      "auc": 0.6573335700114484,
+      "best_iteration": 52,
+      "n_features": 1041,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    },
+    {
+      "fold": 3,
+      "auc": 0.6522163022809853,
+      "best_iteration": 45,
+      "n_features": 1042,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    },
+    {
+      "fold": 4,
+      "auc": 0.6764560858998115,
+      "best_iteration": 50,
+      "n_features": 1042,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    }
+  ],
+  "seconds": 65.68868041038513,
+  "feature_version": "historical_v1"
+}

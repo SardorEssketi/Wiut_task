@@ -1,0 +1,76 @@
+{
+  "name": "xgb_compact",
+  "strategy": "stratified",
+  "config": {
+    "family": "xgb",
+    "features": "compact",
+    "max_depth": 2,
+    "learning_rate": 0.035,
+    "min_child_weight": 30,
+    "reg_lambda": 30.0,
+    "colsample_bytree": 0.9,
+    "subsample": 0.9
+  },
+  "auc_mean": 0.6513244561110021,
+  "auc_std": 0.01489024599591668,
+  "auc_oof": 0.6489698316089002,
+  "folds": [
+    {
+      "fold": 0,
+      "auc": 0.6431006088185908,
+      "best_iteration": 270,
+      "n_features": 210,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    },
+    {
+      "fold": 1,
+      "auc": 0.6285108374370987,
+      "best_iteration": 336,
+      "n_features": 210,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    },
+    {
+      "fold": 2,
+      "auc": 0.6573434315995765,
+      "best_iteration": 37,
+      "n_features": 210,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    },
+    {
+      "fold": 3,
+      "auc": 0.6545786008916669,
+      "best_iteration": 125,
+      "n_features": 210,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    },
+    {
+      "fold": 4,
+      "auc": 0.6730888018080774,
+      "best_iteration": 156,
+      "n_features": 210,
+      "n_train": 11200,
+      "n_valid": 2800,
+      "train_date_max": "2026-12-31 00:00:00",
+      "valid_date_min": "2025-01-01 00:00:00",
+      "valid_date_max": "2026-12-31 00:00:00"
+    }
+  ],
+  "seconds": 22.097010612487793,
+  "feature_version": "historical_v1"
+}
